@@ -1,3 +1,4 @@
+@charset "utf-8";
 .bg1 {
   /* The image used */
   background-image: url("../img/comida1.jpg"); 
@@ -6,7 +7,7 @@
   height: 100%;
   margin-right: -15px; 
   margin-left: -15px;  
-  opacity: 0.3;
+  opacity: 0.7;
  
 
   /* Center and scale the image nicely */
@@ -22,7 +23,7 @@
     height: 100%;
     margin-right: -15px; 
     margin-left: -15px;  
-    opacity: 0.3;
+    opacity: 0.7;
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -37,7 +38,7 @@
     height: 100%;
     margin-right: -15px; 
     margin-left: -15px;  
-    opacity: 0.3;
+    opacity: 0.7;
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -52,7 +53,7 @@
     height: 100%;
     margin-right: -15px; 
     margin-left: -15px;  
-    opacity: 0.3;
+    opacity: 0.7;
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -67,7 +68,7 @@
     height: 100%;
     margin-right: -15px; 
     margin-left: -15px;  
-    opacity: 0.3;
+   
   
     /* Center and scale the image nicely */
     background-position: center;
@@ -84,6 +85,18 @@
     margin: 0%;
     height: 500px;
 }
-.bg5:hover ,.bg4:hover ,.bg3:hover ,.bg2:hover ,.bg1:hover
-{
-opacity:1.0;}
+@keyframes opac{
+  0% {
+    opacity: 0.7;
+  }
+        100% {
+   opacity: 1;
+  }
+}
+.opac:hover{
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-name: opac;
+}
