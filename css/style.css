@@ -1,76 +1,76 @@
 @charset "utf-8";
 .bg1 {
-  /* The image used */
+ 
   background-image: url("../img/comida1.jpg"); 
 
-  /* Full height */
+  
   height: 100%;
   margin-right: -15px; 
   margin-left: -15px;  
   opacity: 0.7;
  
 
-  /* Center and scale the image nicely */
+ 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg2 {
-    /* The image used */
+   
     background-image: url("../img/comida2.jpg"); 
   
-    /* Full height */
+    
     height: 100%;
     margin-right: -15px; 
     margin-left: -15px;  
     opacity: 0.7;
   
-    /* Center and scale the image nicely */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .bg3 {
-    /* The image used */
+    
     background-image: url("../img/comida3.jpg"); 
   
-    /* Full height */
+    
     height: 100%;
     margin-right: -15px; 
     margin-left: -15px;  
     opacity: 0.7;
   
-    /* Center and scale the image nicely */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .bg4 {
-    /* The image used */
+    
     background-image: url("../img/comida4.jpg"); 
   
-    /* Full height */
+   
     height: 100%;
     margin-right: -15px; 
     margin-left: -15px;  
     opacity: 0.7;
   
-    /* Center and scale the image nicely */
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .bg5 {
-    /* The image used */
+ 
     background-image: url("../img/comida5.jpg"); 
   
-    /* Full height */
+   
     height: 100%;
     margin-right: -15px; 
     margin-left: -15px;  
    
   
-    /* Center and scale the image nicely */
+ 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
